@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Signup · Failure</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+ 
+ 
+</head>
+ 
+<body>
+	<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+		<!-- Brand -->
+		<a class="navbar-brand" href="#">Employee Management System</a>
+
+		<button class="navbar-toggler" type="button" data-toggle="collapse"
+			data-target="#collapsibleNavbar">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+	</nav>
+    <div class="container justify-content-center">
+        <h1 class="display-1">Uh oh!!</h1>
+        <p class="lead">Someone has been caught wandering off!</p>
+        <hr class="my-4">
+        <p>The API end-point you are trying to reach has not been implemented, contact developer if you want this implementation.<br>Else return to your Employees Management.</p>
+        <a class="btn btn-outline-primary btn-lg" href="http://github.com/redon913">Contact Developer</a>
+        <a class="btn btn-success btn-lg ml-3" th:href="@{/employees}">Return to Employees Management</a>
+    </div>
+ 
+</body>
+ 
+</html>
